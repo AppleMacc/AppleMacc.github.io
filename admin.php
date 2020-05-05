@@ -8,11 +8,11 @@
 
 
     // check if there is a user logged in
-    /*if (!isset($_SESSION['loggedin']))
+    if (!isset($_SESSION['loggedin']))
     {
         header('Location: index.php');
         exit();
-    }*/
+    }
 
 ?>
 <!DOCTYPE html>
